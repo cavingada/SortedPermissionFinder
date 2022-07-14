@@ -7,5 +7,5 @@ In UNIX systems, the leftmost character specifies the type of file (d for direct
 symlink, etc). The permission string passed as command-line argument will only contain
 the right-most 9 characters, such as r-xrw-r-x.
 
-Then, this project uses pfind.c and and sorting its
+Then, this project uses pfind.c and sorts its
 output (.o file). To utilize this tool, I use a combination of fork(), exec*(), and pipe().
